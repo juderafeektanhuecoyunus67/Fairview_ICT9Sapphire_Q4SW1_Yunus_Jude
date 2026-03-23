@@ -1,0 +1,47 @@
+/* Background styling to match the sample output */
+body {
+    background-image: url("Primaryian_bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Courier New', monospace;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    border: 2px solid #555;
+    background-color: rgba(255, 255, 255, 0.9) !important;
+}
+
+/* the dark rectangular box */
+.form-control.bg-dark {
+    background-color: #1a1a1a !important;
+    border: none;
+    color: #ffffff !important; /* Very classic terminal feel */
+}
+
+.form-control::placeholder {
+    color: #888;
+}
+
+.btn-primary {
+    background-color: #4a90e2;
+    border: none;
+}
+
+.btn-danger {
+    background-color: #ff6b6b;
+    border: none;
+}
+
+.profile-icon img {
+    border-radius: 50%;
+    background: #eee;
+    padding: 5px;
+}
+
+.x-small {
+    font-size: 0.75rem;
+}
