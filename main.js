@@ -6,7 +6,7 @@ const correctPassword = "password123";
 
 // 2. Event Listener for Form Submission
 document.getElementById('loginForm').addEventListener('submit', function(event) {
-    // Prevent the page from refreshing
+    // Prevents page from refreshing
     event.preventDefault();
 
     // Getting values from the inputs
@@ -15,12 +15,12 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 
     // 3. Conditional Statements for Authentication
     if (userInp === correctUsername && passInp === correctPassword) {
-        // 4. Output: Success
-        window.alert("Welcome " + userInp + "! Access granted.");
+        // 4. Success
+        window.alert("✅ Access granted. \nWelcome mrbeast67!");
         console.log("Status: Login Successful");
     } else {
-        // 4. Output: Failure
-        window.alert("Access denied. Incorrect username and/or password.");
+        // 4. Failed
+        window.alert("ⓧ Access denied. \nReason: Incorrect username and/or password.");
         console.log("Status: Login Failed");
     }
 });
